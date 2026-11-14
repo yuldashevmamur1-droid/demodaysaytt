@@ -1,6 +1,13 @@
-.menu-item { /* O'zingizdagi html klass nomini qo'yasiz */
-  display: flex;
+/* Menyu, kategoriya va savat tugmalarini bir qatorda ushlab turish */
+.nav-link,
+.cat-tab,
+.sidebar-cat-btn,
+.cart-trigger-btn,
+.btn-primary,
+.btn-outline,
+.add-cart-btn {
+  display: inline-flex;
   align-items: center;
-  gap: 8px; /* Ikonka va yozuv orasidagi masofa */
-  white-space: nowrap; /* Asosiy yechim: matnni bir qatorda ushlab turadi */
+  gap: 8px;
+  white-space: nowrap;
 }
