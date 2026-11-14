@@ -11,3 +11,14 @@
   gap: 8px;
   white-space: nowrap;
 }
+/* Menyu ichidagi barcha link va tugmalarni bir qatorga tekislash */
+header nav a,
+header nav button,
+.navbar a,
+.nav-link {
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
