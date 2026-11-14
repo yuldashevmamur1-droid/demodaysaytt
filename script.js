@@ -1,2 +1,2 @@
-const BOT_TOKEN = "9206158624:AAGJQuzw099roz3Bl1NoZbinsozkK9fqtuw";
+const BOT_TOKEN = "9111452440:AAFrj3loFA4P_kPQe_BoPJf7GcC-ONitIh0";
 const CHAT_ID = "ID: 7679215827"; // Faqat raqam (guruh bo'lsa -100 bilan boshlanadi)
