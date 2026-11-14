@@ -1,0 +1,6 @@
+.menu-item { /* O'zingizdagi html klass nomini qo'yasiz */
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Ikonka va yozuv orasidagi masofa */
+  white-space: nowrap; /* Asosiy yechim: matnni bir qatorda ushlab turadi */
+}
