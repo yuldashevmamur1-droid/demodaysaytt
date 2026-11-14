@@ -90,6 +90,27 @@ ${itemsText}
         console.error("Network Error:", err);
         showToast("⚠️ Tarmoq xatoligi! Internet yoki VPN ni tekshiring.");
       } finally {
+          <nav className="flex items-center gap-2 px-2 py-1.5 rounded-full border border-white/10 bg-[#14110f] flex-nowrap">
+  <a href="#home" className="flex items-center gap-2 px-4 py-2.5 rounded-full text-gray-300 hover:text-white whitespace-nowrap shrink-0">
+    <span>🏠</span>
+    <span>Bosh sahifa</span>
+  </a>
+
+  <a href="#catalog" className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#d4a36a] text-black font-medium whitespace-nowrap shrink-0">
+    <span>🍴</span>
+    <span>Katalog & Menyu</span>
+  </a>
+
+  <a href="#about" className="flex items-center gap-2 px-4 py-2.5 rounded-full text-gray-300 hover:text-white whitespace-nowrap shrink-0">
+    <span>🏪</span>
+    <span>Kafe haqida & Filiallar</span>
+  </a>
+
+  <a href="#checkout" className="flex items-center gap-2 px-4 py-2.5 rounded-full text-gray-300 hover:text-white whitespace-nowrap shrink-0">
+    <span>🛍️</span>
+    <span>Rasmiylashtirish</span>
+  </a>
+</nav>
         btn.disabled = false;
         btn.innerHTML = originalBtnHTML;
       }
